@@ -164,7 +164,8 @@ if st.session_state.livro_aberto:
             
             col_final1, col_final2 = st.columns(2)
             with col_final1:
-                if st.button("Sim ❤️"):
+                if st.button("Sim ❤️", key="sim_final"):
+
                     st.session_state.melhor_casal = True
             with col_final2:
                 if st.button("Claro 😎"):
