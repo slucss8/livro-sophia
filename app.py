@@ -53,7 +53,7 @@ if st.session_state.livro_aberto:
     e esse sentimento que não consigo transformar em palavras, espero que possa sentir também, estou sentindo nesse exato momento.
     como a gente se conheceu foi algo tão aleatório, em um jogo, e não acho que seremos assim para sempre
     por isso fiz isso, para saber que mesmo que nós separemos, saberá que teve alguém que amou você muito
-    bom, eu só desejo o melhor pra você, mesmo que no futuro não estejamos mais juntos, porque acho que isso é o amor
+    mesmo, eu só desejo o melhor pra você, mesmo que no futuro não estejamos mais juntos, porque acho que isso é o amor
     é bom, mas também machuca, e acho que não tem como amar sem se machucar um poquinho não é? Se eu tivesse que contar todos os motivos 
     pelos quais eu te amo, o resultado seria como o número Pi π infinito e impossível de terminar.
     
