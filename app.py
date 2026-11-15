@@ -33,6 +33,8 @@ if "disse_sim" not in st.session_state:
     st.session_state.disse_sim = False
 if "estrofe_atual" not in st.session_state:
     st.session_state.estrofe_atual = 1
+if "melhor_casal" not in st.session_state:
+    st.session_state.melhor_casal = False
 
 if st.button("Já dei o play! Abrir o Livro 📖"):
     st.session_state.livro_aberto = True
@@ -143,9 +145,24 @@ if st.session_state.livro_aberto:
             if st.button("Continuar lendo... 📖"):
                 st.session_state.estrofe_atual += 1
                 st.rerun()
+        else:
+            # Quando terminar a última estrofe, aparece a pergunta final do casal + DBD!
+            st.write("---")
+            st.subheader("Melhor casal? 👀")
+            
+            col_final1, col_final2 = st.columns(2)
+            with col_final1:
+                if st.button("Sim ❤️"):
+                    st.session_state.melhor_casal = True
+            with col_final2:
+                if st.button("Claro 😎"):
+                    st.session_state.melhor_casal = True
+                    
+            if st.session_state.melhor_casal:
+                st.success("Eu amo você Sophia, agora me da sua conta do DBD por favor? 😂❤️")
 
 # Créditos engraçados bem no cantinho lá embaixo
 st.write("")
 st.write("")
 st.write("---")
-st.caption("🛠️ *Agradecimentos especiais ao ChatGPT por me ajudar a programar isso do zero só pra fazer essa surpresa kkk.*")
+st.caption("🛠️ *Agradecimentos especiais ao ChatGPT por me ajudar a programar isso do zero só pra fazer essa surpresa kkk, não tem nada de darkmoon aqui, fique tranquila.*")
