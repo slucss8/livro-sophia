@@ -49,7 +49,7 @@ if st.session_state.livro_aberto:
     dos meus dias. Obrigado por cada momento, cada conversa e por ser essa 
     pessoa incrível que você é. Espero que eu também possa fazer você feliz 
     e que se sinta especial também assim como você me faz eu me sentir,
-    porque você é especial para mi. Se eu tivesse que contar todos os motivos 
+    porque você é especial para mim. Se eu tivesse que contar todos os motivos 
     pelos quais eu te amo, o resultado seria como o número Pi π infinito e impossível de terminar.
     
     
