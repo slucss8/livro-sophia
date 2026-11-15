@@ -36,18 +36,22 @@ if "estrofe_atual" not in st.session_state:
 if "melhor_casal" not in st.session_state:
     st.session_state.melhor_casal = False
 
-if st.button("Já dei o play! Abrir o Livro 📖"):
+if st.button("Já dei play abre o livro logo garoto! 📖"):
     st.session_state.livro_aberto = True
 
 if st.session_state.livro_aberto:
     # Capítulo 1
-    st.header("Capítulo 1: Nossa História ❤️")
+    st.header("Capítulo 1: Feitos um para o outro? ❤️")
     st.write("""
     Sophia, fiz esse pequeno livro digital só para você.
     
     Mesmo sendo tão opostos em tantas coisas, estar com você é a melhor parte 
     dos meus dias. Obrigado por cada momento, cada conversa e por ser essa 
-    pessoa incrível que você é.
+    pessoa incrível que você é. Espero que eu também possa fazer você feliz 
+    e que se sinta especial também assim como você me faz eu me sentir,
+    porque você é especial para mi. Se eu tivesse que contar todos os motivos 
+    pelos quais eu te amo, o resultado seria como o número Pi π infinito e impossível de terminar.
+    
     
     Esse livro ainda tem muitas páginas em branco, e eu quero escrever todas 
     elas ao seu lado.
@@ -59,10 +63,10 @@ if st.session_state.livro_aberto:
     st.header("Capítulo 2: Sobre Você ✨")
     st.write("""
     Se eu tivesse que escrever um livro inteiro só sobre você, ainda faltariam páginas. 
-    Eu amo o seu jeito, o seu sorriso, o jeito como você enxerga o mundo e até os 
+    Eu amo o seu jeito, o seu sorriso, o jeito como você enxerga as coisas e até os 
     pequenos detalhes que você acha que ninguém repara.
     
-    Você tem uma luz própria que deixa tudo mais leve quando está por perto. 
+    Você tem uma luz própria que deixa tudo mais leve quando está por perto, eu acho que sou viciado em você. 
     De todas as histórias que eu já li ou vivi, a minha favorita com certeza é 
     aquela em que você aparece.
     
@@ -159,7 +163,7 @@ if st.session_state.livro_aberto:
                     st.session_state.melhor_casal = True
                     
             if st.session_state.melhor_casal:
-                st.success("Eu amo você Sophia, agora me da sua conta do DBD por favor? 😂❤️")
+                st.success("Eu amo você Sophia, agora me da sua conta do DBD por favor? ❤️")
 
 # Créditos engraçados bem no cantinho lá embaixo
 st.write("")
