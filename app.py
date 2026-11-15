@@ -73,7 +73,8 @@ if st.session_state.livro_aberto:
     
     Você tem uma luz própria que deixa tudo mais leve quando está por perto, eu acho que sou viciado em você, é inteligente, engraçada
     e fala bastante também, mas essa parte é a que eu mais gosto, você é linda, muito mesmo, queria que você pudesse ver com os meus olhos
-    nem que fosse por um segudo, então ai você enxergaria, o quão incrível você é, exatamente do jeito que é. 
+    nem que fosse por um segudo, então ai você enxergaria, o quão incrível você é, exatamente do jeito que é, se tivesse uma música nossa
+    acho que seria a Pixelated Kisses, porque a pior parte de amar você é ter que estar tão longe de você. 
     De todas as histórias que eu já li ou vivi, a minha favorita com certeza é 
     aquela em que você aparece.
     
