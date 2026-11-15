@@ -43,18 +43,23 @@ if st.session_state.livro_aberto:
     # Capítulo 1
     st.header("Capítulo 1: Feitos um para o outro? ❤️")
     st.write("""
-    Sophia, fiz esse pequeno livro digital só para você.
+    Sophia, fiz esse pequeno livro digital só para você, bem pequeno mesmo kk.
     
     Mesmo sendo tão opostos em tantas coisas, estar com você é a melhor parte 
     dos meus dias. Obrigado por cada momento, cada conversa e por ser essa 
     pessoa incrível que você é. Espero que eu também possa fazer você feliz 
     e que se sinta especial também assim como você me faz eu me sentir,
-    porque você é especial para mim. Se eu tivesse que contar todos os motivos 
+    porque você é especial para mim, eu sinto como se tivesse realmente encontrado a pessoa certa, 
+    e esse sentimento que não consigo transformar em palavras, espero que possa sentir também, estou sentindo nesse exato momento.
+    como a gente se conheceu foi algo tão aleatório, em um jogo, e não acho que seremos assim para sempre
+    por isso fiz isso, para saber que mesmo que nós separemos, saberá que teve alguém que amou você muito
+    bom, eu só desejo o melhor pra você, mesmo que no futuro não estejamos mais juntos, porque acho que isso é o amor
+    é bom, mas também machuca, e acho que não tem como amar sem se machucar um poquinho não é? Se eu tivesse que contar todos os motivos 
     pelos quais eu te amo, o resultado seria como o número Pi π infinito e impossível de terminar.
     
     
     Esse livro ainda tem muitas páginas em branco, e eu quero escrever todas 
-    elas ao seu lado.
+    elas ao seu lado enquanto der.
     """)
     
     st.write("")
@@ -66,7 +71,9 @@ if st.session_state.livro_aberto:
     Eu amo o seu jeito, o seu sorriso, o jeito como você enxerga as coisas e até os 
     pequenos detalhes que você acha que ninguém repara.
     
-    Você tem uma luz própria que deixa tudo mais leve quando está por perto, eu acho que sou viciado em você. 
+    Você tem uma luz própria que deixa tudo mais leve quando está por perto, eu acho que sou viciado em você, é inteligente, engraçada
+    e fala bastante também, mas essa parte é a que eu mais gosto, você é linda, muito mesmo, queria que você pudesse ver com os meus olhos
+    nem que fosse por um segudo, então ai você enxergaria, o quão incrível você é, exatamente do jeito que é. 
     De todas as histórias que eu já li ou vivi, a minha favorita com certeza é 
     aquela em que você aparece.
     
